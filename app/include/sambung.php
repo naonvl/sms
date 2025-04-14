@@ -4,9 +4,9 @@ class DB{
 
 	private static $db_server 	= 'localhost';
 	private static $db_port 	= '3306';
-	private static $db_database = 'jafarluk_sims'; //ol
-	private static $db_user 	= 'jafarluk_sims';
-	private static $db_password	= '&Yaq{1P902z{';
+	private static $db_database     = 'sims'; //ol
+	private static $db_user 	= 'root';
+	private static $db_password	= 'DGTech123';
 	
 	private static $dbpdo = null;
 
