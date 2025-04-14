@@ -74,7 +74,7 @@ if ( $_SESSION["logged"] == 0 ) {
 	echo 'Access denied';	
 ?>
 	<script>
-		window.location = 'https://sims.yayasanpermatasari.co.id//';
+		window.location = 'https://sims.yayasanpermatasari.co.id/';
 	</script>
 <?php	
 	exit;
