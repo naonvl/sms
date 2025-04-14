@@ -28,7 +28,7 @@ $segmen6   = "";
 $nama_folder = dirname("../".$_SERVER['PHP_SELF']); //online (subdomain)
 
 //$url = explode("/",$_SERVER["REQUEST_URI"]); //localhost
-$url = explode("/","sims1.yayasanpermatasari.co.id/".$_SERVER["REQUEST_URI"]); //online
+$url = explode("/","sims.yayasanpermatasari.co.id/".$_SERVER["REQUEST_URI"]); //online
 
 $segmen0   = $url[0];
 $segmen1   = $url[1];
@@ -68,19 +68,13 @@ if($url2[1] != "") {
 	$act = $url2[1];
 }*/
 
-//-----------------------------/\
-if (( $_SESSION["logged"] == 0)) {
+if ( $_SESSION["logged"] == 0 ) {
 	
 	if ($act == obraxabrix('logout')) { include_once("logout.php"); }
 	echo 'Access denied';	
-	
-	//PPDB only
-	/*if($_SESSION["log"] == "") {
-		$_SESSION["log"] = "login";
-	}*/
 ?>
 	<script>
-		window.location = 'https://sims1.yayasanpermatasari.co.id';
+		window.location = 'https://sims.yayasanpermatasari.co.id//';
 	</script>
 <?php	
 	exit;
